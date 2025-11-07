@@ -1,8 +1,6 @@
-@Library ("com.venkat.sharedlib") _ // import com.venkat.sharedlib.Utils
+@Library ("com.nagasai.sharedlib") _ // import com.nagasai.sharedlib
 pipeline {
-    agent {
-        label "sujith-label1"
-    }
+    agent any
 
     stages {
         stage('buliding'){
